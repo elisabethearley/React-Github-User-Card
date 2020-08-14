@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("./Image/glen-carrie-6-XmguXtoVE-unsplash.jpg");
+  background-size: cover;
+}
+h1 {
+  text-shadow: 1.5px 1.5px rgb(206, 2, 2);
+}
+img {
+  height: auto;
+  width: auto;
+  border: 2px solid rgb(206, 2, 2);
+  border-radius: 10px;
+}
+a {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+p {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user {
+  display: flex;
+}
+
+.userInfo {
+  padding: 8%;
+}
+
+.followers {
+  margin: 2%;
+  padding-left: 35%;
+}
+
+.followersP {
+  padding-left: 12%;
 }
